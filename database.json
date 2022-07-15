@@ -1,0 +1,206 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Buster Batson",
+            "email": "buster@b.com",
+            "isStaff": true
+        },
+        {
+            "id": 2,
+            "name": "Alan Adams",
+            "email": "alan@a.com",
+            "isStaff": false
+        },
+        {
+            "id": 3,
+            "name": "Dani Davidson",
+            "email": "dani@d.com",
+            "isStaff": false
+        },
+        {
+            "id": 4,
+            "name": "Mary Morris",
+            "email": "mary@m.com",
+            "isStaff": true
+        },
+        {
+            "id": 5,
+            "name": "Richard Rollins",
+            "email": "richard@r.com",
+            "isStaff": false
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "userId": 2,
+            "loyaltyNumber": 38478
+        },
+        {
+            "id": 2,
+            "userId": 3,
+            "loyaltyNumber": 38401
+        },
+        {
+            "id": 3,
+            "userId": 5,
+            "loyaltyNumber": 38478
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "userId": 1,
+            "storeId": 1,
+            "startsDate": "2020-08-27",
+            "payRate": 24
+        },
+        {
+            "id": 2,
+            "userId": 4,
+            "storeId": 4,
+            "startsDate": "2021-05-08",
+            "payRate": 20
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "city": "Nashville",
+            "address": "3114 West End Ave",
+            "squareFootage": 1500
+        },
+        {
+            "id": 2,
+            "city": "Huntsville",
+            "address": "1028 Providence Main St NW",
+            "squareFootage": 1200
+        },
+        {
+            "id": 3,
+            "city": "Knoxville",
+            "address": "1834 Parkside Dr",
+            "squareFootage": 1300
+        },
+        {
+            "id": 4,
+            "city": "Chattanooga",
+            "address": "1810 Chestnust St",
+            "squareFootage": 1200
+        },
+        {
+            "id": 5,
+            "city": "Atlanta",
+            "address": "1425 Peachtree St NW",
+            "squareFootage": 1700
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "Snickers",
+            "price": 1.97,
+            "productTypeId": 1
+        },
+        {
+            "id": 2,
+            "name": "Jolly Ranchers",
+            "price": 3.96,
+            "productTypeId": 2
+        },
+        {
+            "id": 3,
+            "name": "Fruit Stripes",
+            "price": 2.50,
+            "productTypeId": 3
+        },
+        {
+            "id": 4,
+            "name": "Coke",
+            "price": 1.96,
+            "productTypeId": 4
+        },
+        {
+            "id": 5,
+            "name": "Sour Crawlers",
+            "price": 2.34,
+            "productTypeId": 5
+        },
+        {
+            "id": 6,
+            "name": "Kit Kat",
+            "price": 1.99,
+            "productTypeId": 1
+        },
+        {
+            "id": 7,
+            "name": " Mega Jawbreaker",
+            "price": 3.57,
+            "productTypeId": 2
+        },
+        {
+            "id": 8,
+            "name": "Dr. Pepper",
+            "price": 1.96,
+            "productTypeId": 4
+        },
+        {
+            "id": 9,
+            "name": "Haribo Gummy Bears",
+            "price": 3.19,
+            "productTypeId": 5
+        },
+        {
+            "id": 10,
+            "name": "Diet Coke",
+            "price": 1.96,
+            "productTypeId": 4
+        },
+        {
+            "id": 11,
+            "name": "Orange Sunkist",
+            "price": 1.96,
+            "productTypeId": 4
+        },
+        {
+            "id": 12,
+            "name": "Three Musketeers",
+            "price": 2.67,
+            "productTypeId": 1
+        },
+        {
+            "id": 13,
+            "name": "Giant Gummy Bear",
+            "price": 19.97,
+            "productTypeId": 5
+        }
+    ],
+    "productTypes": [
+        {
+            "id": 1,
+            "name": "Chocolate"
+        },
+        {
+            "id": 2,
+            "name": "Hard Candy"
+        },
+        {
+            "id": 3,
+            "name": "Gum"
+        },
+        {
+            "id": 4,
+            "name": "Soda"
+        },
+        {
+            "id": 5,
+            "name": "Gummy"
+        }
+    ],
+    "purchases": [
+        {
+            "id": 1
+        }
+    ]
+}
